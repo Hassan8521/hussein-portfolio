@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hussein Guyo Jattani – E-Portfolio</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 100%; background: #ffffff; font-family: Arial, sans-serif; color: #1a1a1a; }
+  body { padding: 1.5rem; max-width: 820px; margin: auto; }
 
+  .hero { background: #f0f4f8; border-radius: 12px; padding: 1.75rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; border: 1px solid #dde3ea; flex-wrap: wrap; }
+  .avatar { width: 76px; height: 76px; border-radius: 50%; background: #b5d4f4; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; color: #0c447c; flex-shrink: 0; }
+  .hero-name { font-size: 22px; font-weight: 700; margin-bottom: 3px; }
+  .hero-title { font-size: 14px; color: #555; margin-bottom: 8px; }
+  .badge { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 20px; background: #e1f5ee; color: #085041; margin-right: 6px; margin-top: 4px; font-weight: 600; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
+  .contact-item { font-size: 13px; color: #555; }
+
+  .section { margin-bottom: 1.75rem; }
+  .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #888; margin-bottom: 0.75rem; padding-bottom: 6px; border-bottom: 1.5px solid #e5e7eb; }
+
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 0.75rem; overflow: hidden; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; }
+  .card-title { font-size: 15px; font-weight: 700; }
+  .card-date { font-size: 12px; color: #999; background: #f5f5f5; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .card-sub { font-size: 13px; color: #1D9E75; font-weight: 600; margin-bottom: 8px; }
+  .bullet { font-size: 13px; color: #555; margin-top: 5px; display: flex; align-items: flex-start; gap: 7px; line-height: 1.6; }
+  .bullet-dot { color: #1D9E75; flex-shrink: 0; font-size: 15px; margin-top: 1px; }
+
+  .edu-row { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 0.85rem; }
+  .edu-row:last-child { margin-bottom: 0; }
+  .edu-year { font-size: 12px; color: #999; min-width: 38px; padding-top: 2px; font-weight: 600; }
+  .edu-degree { font-size: 14px; font-weight: 700; }
+  .edu-inst { font-size: 13px; color: #666; }
+
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .skill-card { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem 1rem; font-size: 13px; color: #333; display: flex; align-items: center; gap: 8px; }
+  .skill-icon { font-size: 18px; }
+
+  .refs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+  .ref-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 0.875rem 1rem; }
+  .ref-name { font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+  .ref-role { font-size: 12px; color: #666; margin-bottom: 6px; line-height: 1.4; }
+  .ref-phone { font-size: 12px; color: #888; }
+
+  .profile-text { font-size: 14px; color: #555; line-height: 1.8; }
+
+  .divider { height: 3px; background: linear-gradient(90deg, #1D9E75, #185FA5); border-radius: 2px; margin-bottom: 1.5rem; }
+
+  @media (max-width: 500px) {
+    .hero { flex-direction: column; }
+    body { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="divider"></div>
+
+<div class="hero">
+  <div class="avatar">HG</div>
+  <div style="flex: 1; min-width: 0;">
+    <div class="hero-name">Hussein Guyo Jattani</div>
+    <div class="hero-title">Teacher of Arabic, Qur'an &amp; Islamic Studies &nbsp;|&nbsp; Marsabit, Kenya</div>
+    <div>
+      <span class="badge">&#127891; B.A. Islamic Sharia Law</span>
+      <span class="badge">&#128218; DPTE In Progress</span>
+    </div>
+    <div class="contact-row">
+      <span class="contact-item">&#128205; Marsabit, Kenya</span>
+      <span class="contact-item">&#128222; +254 728 263 751</span>
+      <span class="contact-item">&#9993; husseinguyo1991@gmail.com</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Profile</div>
+  <div class="card">
+    <p class="profile-text">Dedicated and passionate teacher with experience in both primary and secondary school education. Holder of a Bachelor's Degree in Islamic Sharia Law and currently pursuing a Diploma in Primary Teacher Education (DPTE). Self-motivated, hardworking, and committed to nurturing academic excellence, discipline, and positive learner development.</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Experience</div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">Teacher</div>
+      <span class="card-date">2021 – Dec 2025</span>
+    </div>
+    <div class="card-sub">Kenya Muslim Academy</div>
+    <div class="bullet"><span class="bullet-dot">&#10003;</span> Taught Arabic and I.R.E in secondary school</div>
+    <div class="bullet"><span class="bullet-dot">&#10003;</span> Taught Arabic, Qur'an and I.R.E in primary school</div>
+    <div class="bullet"><span class="bullet-dot">&#10003;</span> Prepared lesson plans, assessments and maintained classroom discipline</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">Teacher</div>
+      <span class="card-date">2020 – Present</span>
+    </div>
+    <div class="card-sub">Madrasatul Al-Hidaya, Huruma</div>
+    <div class="bullet"><span class="bullet-dot">&#10003;</span> Teaching Arabic, Qur'an and I.R.E</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">Teacher</div>
+      <span class="card-date">2014 – 2015</span>
+    </div>
+    <div class="card-sub">Madrasatul Taqwa</div>
+    <div class="bullet"><span class="bullet-dot">&#10003;</span> Taught Qur'an, Fiqh, Sirah, Tawheed, Hadith and Arabic</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Educational Background</div>
+  <div class="card">
+    <div class="edu-row">
+      <div class="edu-year">2024</div>
+      <div><div class="edu-degree">KCSE — Grade C</div><div class="edu-inst">Marsabit Sub-County Private Centre</div></div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-year">2019</div>
+      <div><div class="edu-degree">B.A. in Islamic Sharia Law</div><div class="edu-inst">Islamic University of Kenya</div></div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-year">2015</div>
+      <div><div class="edu-degree">Thanawi Certificate — Jayyid Jiddan</div><div class="edu-inst">Africa Muslim Agency Institute</div></div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-year">2012</div>
+      <div><div class="edu-degree">Mutawassit Certificate — Mumtaz</div><div class="edu-inst">Africa Muslim Agency Institute</div></div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-year">2007</div>
+      <div><div class="edu-degree">KCPE — C minus</div><div class="edu-inst">Saku Primary School, Marsabit</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Key Skills</div>
+  <div class="skills-grid">
+    <div class="skill-card"><span class="skill-icon">&#128101;</span> Classroom management</div>
+    <div class="skill-card"><span class="skill-icon">&#128172;</span> Communication</div>
+    <div class="skill-card"><span class="skill-icon">&#127760;</span> Arabic — fluent</div>
+    <div class="skill-card"><span class="skill-icon">&#128203;</span> Lesson planning</div>
+    <div class="skill-card"><span class="skill-icon">&#128202;</span> Learner assessment</div>
+    <div class="skill-card"><span class="skill-icon">&#129309;</span> Teamwork</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Personal Attributes</div>
+  <div class="card">
+    <p class="profile-text">Self-motivated, disciplined, honest, adaptable, and able to work under minimal supervision.</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Referees</div>
+  <div class="refs-grid">
+    <div class="ref-card">
+      <div class="ref-name">Abdirizaq Fugicha</div>
+      <div class="ref-role">Al-Hidaya Madrasa, Huruma</div>
+      <div class="ref-phone">&#128222; +254 759 421 437</div>
+    </div>
+    <div class="ref-card">
+      <div class="ref-name">Ibrahim Gole</div>
+      <div class="ref-role">Examination Coordinator, Islamic University of Kenya</div>
+      <div class="ref-phone">&#128222; +254 725 523 558</div>
+    </div>
+    <div class="ref-card">
+      <div class="ref-name">Abdi Mohammed</div>
+      <div class="ref-role">Mudir, Madrasa Taqwa</div>
+      <div class="ref-phone">&#128222; +254 724 498 786</div>
+    </div>
+    <div class="ref-card">
+      <div class="ref-name">Dr. Maulid</div>
+      <div class="ref-role">Asst. Manager, Kenya Muslim Academy</div>
+      <div class="ref-phone">&#128222; +254 103 982 819</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
